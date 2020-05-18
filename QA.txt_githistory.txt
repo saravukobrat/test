@@ -1,0 +1,16 @@
+ 1069  clear
+ 1070  mkdir T
+ 1071  cd T
+ 1072  git init
+ 1073  ls -a
+ 1074  git remote add origin git@github.com:saravukobrat/test.git
+ 1075  git remote -v
+ 1076  ls -a
+ 1077  git pull origin master
+ 1078  git checkout -b featureT
+ 1079  ls -a
+ 1080  nano QA.txt
+ 1081  git add .
+ 1082  git commit -m 'tamara commit'
+ 1083  git push
+ 1084  git push --set-upstream origin featureT
